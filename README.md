@@ -38,8 +38,8 @@
 ### Installation:
 
 - Unzip the paygol_whmcs_4.0.zip file directly in the modules/gateways folder of your WHMCS installation.
-- Activate the PayGol module in your WHMCS admin panel (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
-- Once it's activated, proceed to the module's setup page (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
+- Activate the PayGol module in your WHMCS admin panel (`Setup -> Payment -> Payment Gateways -> All Payment Gateways`).
+- Once it's activated, proceed to the module's setup page (`Setup -> Payment -> Payment Gateways -> Manage Existing Gateways`).
 - Enter the ID of your PayGol service (can be found at the My Services section of your panel, at PayGol's website).
 - Paste the provided URL into the Background URL (IPN) field at your service's configuration, 
   which you can access through the My Services section of your panel, at PayGol's website.
