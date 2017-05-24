@@ -32,35 +32,30 @@ $totalInvoice   = $order_data[0]->total;
 
 // PayGol GET parameters.
 $transaction_id = $_GET['transaction_id'];
-$service_id	    = $_GET['service_id'];
-$country	    = $_GET['country'];
+$service_id	= $_GET['service_id'];
+$country	= $_GET['country'];
 $custom	        = $_GET['custom'];
 $price	        = $_GET['price'];
-$currency	    = $_GET['currency'];
-$frmprice	    = $_GET['frmprice'];
+$currency	= $_GET['currency'];
+$frmprice	= $_GET['frmprice'];
 $frmcurrency	= $_GET['frmcurrency'];
-$key			= $_GET['key'];
-
-
+$key		= $_GET['key'];
 
 if ( ( (isset($frmprice) && isset($frmcurrency)) && (isset($custom) && isset($price)) ) && ($key == trim($secretKEY)) )
 	{
-			
-			
-				   if ($statusInvoice == 'Unpaid' && ($idInvoice == $custom && $totalInvoice == $frmprice))
-				   {
-						$transactionId = $transaction_id;
-						addInvoicePayment
-						(
-						 $invoiceId,
-						 $transactionId,
-						 $paymentAmount,
-						 $moduleName,
-						 $paygol
-						);
-						logTransaction($gatewayParams["name"],$_POST,"Successful"); 
-					}
-				
+	   if ($statusInvoice == 'Unpaid' && ($idInvoice == $custom && $totalInvoice == $frmprice))
+	      {
+			$transactionId = $transaction_id;
+			addInvoicePayment
+			(
+			 $invoiceId,
+			 $transactionId,
+			 $paymentAmount,
+			 $moduleName,
+			 $paygol
+			);
+			logTransaction($gatewayParams["name"],$_POST,"Successful"); 
+		}
 			
 	} else {
 		logTransaction($gatewayParams["name"],$_POST,"Unsuccessful");
