@@ -14,7 +14,7 @@ Requirements:
 - Standard type PayGol service.
 
 Installation:
-- Unzip the paygol_whmcs_4.1.zip file directly in the modules/gateways folder of your WHMCS installation.
+- Unzip the paygol_for_whmcs_4.1.zip file directly in the modules/gateways folder of your WHMCS installation.
 - Activate the PayGol module in your WHMCS admin panel (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
 - Once it's activated, proceed to the module's setup page (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
 - Enter the ID of your PayGol service (can be found at the My Services section of your panel, at PayGol's website).
@@ -53,7 +53,7 @@ Requerimientos:
 - Servicio tipo Estándar.
 
 Instalación:
-- Descomprime el archivo paygol_whmcs_4.1.zip directamente en la carpeta modules/gateways de tu instalación de WHMCS.
+- Descomprime el archivo paygol_for_whmcs_4.1.zip directamente en la carpeta modules/gateways de tu instalación de WHMCS.
 - Activa el módulo de PayGol en tu panel de administración de WHMCS (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
 - Una vez activado, procede a la página de configuración del módulo (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
 - Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la sección Mis Servicios de tu panel, en el sitio web de PayGol).
