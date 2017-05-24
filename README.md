@@ -69,6 +69,13 @@
 ### Changelog
 
 
+#### v4.1
+- Added validation for payment notifications
+
+#### v4.0
+
+- Initial release.
+
 ---
 <br>
 
