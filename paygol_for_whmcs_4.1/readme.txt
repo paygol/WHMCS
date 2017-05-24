@@ -14,11 +14,11 @@ Requirements:
 - Standard type PayGol service.
 
 Installation:
-- Unzip the paygol_whmcs_4.0.zip file directly in the modules/gateways folder of your WHMCS installation.
+- Unzip the paygol_whmcs_4.1.zip file directly in the modules/gateways folder of your WHMCS installation.
 - Activate the PayGol module in your WHMCS admin panel (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
 - Once it's activated, proceed to the module's setup page (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
 - Enter the ID of your PayGol service (can be found at the My Services section of your panel, at PayGol's website).
-- Enter the "Secret Key" of your PayGol service (can be found at the My Services section of your panel, at PayGol's website).
+- Enter the Secret key of your PayGol service (can be found at the My Services section of your panel, at PayGol's website).
 - Paste the provided URL into the Background URL (IPN) field at your service's configuration, 
   which you can access through the My Services section of your panel, at PayGol's website:
 
@@ -37,39 +37,41 @@ Important notes:
 
 
 
-******* EspaÒol *******
+******* Espa√±ol *******
 
-MÛdulo de PayGol para WHMCS, versiÛn 4.1
+M√≥dulo de PayGol para WHMCS, versi√≥n 4.1
 
-Acerca de este mÛdulo:
-- Este mÛdulo permite integrar PayGol f·cilmente en tu sistema. PayGol es un sistema de pagos en lÌnea que ofrece una amplia variedad 
-  de mÈtodos de pago tanto internacionales como locales tales como tarjeta de crÈdito y dÈbito, paysafecard, transferencia bancaria, 
-  pagos en efectivo, SMS/llamada y m·s. M·s opciones de pago y mayor cobertura significan que para tus clientes es m·s f·cil que nunca pagar 
-  por tus productos y servicios, a la vez que tambiÈn significan mayores ventas y ganancias para tÌ.
+Acerca de este m√≥dulo:
+- Este m√≥dulo permite integrar PayGol f√°cilmente en tu sistema. PayGol es un sistema de pagos en l√≠nea que ofrece una amplia variedad 
+  de m√©todos de pago tanto internacionales como locales tales como tarjeta de cr√©dito y d√©bito, paysafecard, transferencia bancaria, 
+  pagos en efectivo, SMS/llamada y m√°s. M√°s opciones de pago y mayor cobertura significan que para tus clientes es m√°s f√°cil que nunca pagar 
+  por tus productos y servicios, a la vez que tambi√©n significan mayores ventas y ganancias para t√≠.
 
 Requerimientos:
-- InstalaciÛn funcional de WHMCS (probado hasta la versiÛn 7.1.1).
+- Instalaci√≥n funcional de WHMCS (probado hasta la versi√≥n 7.1.1).
 - Cuenta en PayGol.
-- Servicio tipo Est·ndar.
+- Servicio tipo Est√°ndar.
 
-InstalaciÛn:
-- Descomprime el archivo paygol_whmcs_4.0.zip directamente en la carpeta modules/gateways de tu instalaciÛn de WHMCS.
-- Activa el mÛdulo de PayGol en tu panel de administraciÛn de WHMCS (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
-- Una vez activado, procede a la p·gina de configuraciÛn del mÛdulo (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
-- Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la secciÛn Mis Servicios de tu panel, en el sitio web de PayGol).
-- Ingresa Secret key de tu servicio de PayGol (puede ser encontrado en la secciÛn Mis Servicios de tu panel, en el sitio web de PayGol).
-- Copia la URL proporcionada y pÈgala en el campo URL de proceso (IPN) de la configuraciÛn de tu servicio, accesible a travÈs 
-  de la secciÛn Mis Servicios de tu panel, en el sitio web de PayGol.
+Instalaci√≥n:
+- Descomprime el archivo paygol_whmcs_4.1.zip directamente en la carpeta modules/gateways de tu instalaci√≥n de WHMCS.
+- Activa el m√≥dulo de PayGol en tu panel de administraci√≥n de WHMCS (Setup -> Payment -> Payment Gateways -> All Payment Gateways).
+- Una vez activado, procede a la p√°gina de configuraci√≥n del m√≥dulo (Setup -> Payment -> Payment Gateways -> Manage Existing Gateways).
+- Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la secci√≥n Mis Servicios de tu panel, en el sitio web de PayGol).
+- Ingresa Secret key de tu servicio de PayGol (puede ser encontrado en la secci√≥n Mis Servicios de tu panel, en el sitio web de PayGol).
+- Copia la URL proporcionada y p√©gala en el campo URL de proceso (IPN) de la configuraci√≥n de tu servicio, accesible a trav√©s 
+  de la secci√≥n Mis Servicios de tu panel, en el sitio web de PayGol.
 
 Pruebas:
-- Para probar el mÛdulo tras su instalaciÛn puedes activar el modo de pruebas de tu servicio en la secciÛn Mis Servicios de tu panel, 
-  en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez concluÌdas tus pruebas.
+- Para probar el m√≥dulo tras su instalaci√≥n puedes activar el modo de pruebas de tu servicio en la secci√≥n Mis Servicios de tu panel, 
+  en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez conclu√≠das tus pruebas.
 
 Notas importantes:
-- En modo de pruebas se realizar· un llamado IPN (notificaciÛn de pago a tu plataforma) inmediatamente despuÈs de cada prueba.
-- Una vez un pago sea completado, el mismo se mostrar· como pendiente hasta que lo actives en tu panel de WHMCS, 
+- En modo de pruebas se realizar√° un llamado IPN (notificaci√≥n de pago a tu plataforma) inmediatamente despu√©s de cada prueba.
+- Una vez un pago sea completado, el mismo se mostrar√° como pendiente hasta que lo actives en tu panel de WHMCS, 
   esto es una medida de seguridad para evitar abusos.
-- Los pagos usualmente son notificados inmediatamente; ahora bien, algunos mÈtodos de pago podrÌan tomar m·s tiempo en notificar 
-  la transacciÛn (ej: mÈtodos que toman algunos minutos en realizar la notificaciÛn, o mÈtodos basados en boletos que deben ser 
-  impresos y pagados en efectivo). En esos casos el producto se mostrar· como no pagado, y sÛlo una vez sea confirmado por el 
-  proveedor se mostrar· como pagado. Recomendamos que informes a tu clientela sobre esto a modo de evitar confusiones.
+- Los pagos usualmente son notificados inmediatamente; ahora bien, algunos m√©todos de pago podr√≠an tomar m√°s tiempo en notificar 
+  la transacci√≥n (ej: m√©todos que toman algunos minutos en realizar la notificaci√≥n, o m√©todos basados en boletos que deben ser 
+  impresos y pagados en efectivo). En esos casos el producto se mostrar√° como no pagado, y s√≥lo una vez sea confirmado por el 
+  proveedor se mostrar√° como pagado. Recomendamos que informes a tu clientela sobre esto a modo de evitar confusiones.
+  
+  ---
