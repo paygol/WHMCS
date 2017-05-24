@@ -11,7 +11,8 @@
 [Requirements](#requirements) <br>
 [Installation](#installation) <br>
 [Testing](#testing) <br>
-[Important Notes](#important-notes) <br><br>
+[Important Notes](#important-notes) <br>
+[Changelog](#changelog)<br><br>
 
 ---
 
@@ -64,8 +65,11 @@
   (e.g. methods that take a few minutes to notify the transaction, or voucher-based transactions that require the payer to print 
   it in order to pay by cash at a given place). In these cases the product is shown as not paid, and only once it's confirmed by the 
   provider will it show as paid. We strongly recommend that you inform your customers about this beforehand in order to avoid confusions.
-	
+
+### Changelog
+
 
 ---
 <br>
+
 
