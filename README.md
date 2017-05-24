@@ -71,7 +71,7 @@
 
 
 #### v4.1
-- Added validation for payment notifications
+- New release, added validation for payment notifications
 
 #### v4.0
 
